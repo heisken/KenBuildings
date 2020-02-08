@@ -12,19 +12,19 @@ end
 #jekyll_plugins following:
 group :jekyll_plugins do
   #gem "rails"
-  gem "rake"
-  gem "autoprefixer-rails"
-  gem "html-proofer"
-  gem "image_optim"
-  gem "jekyll", '3.8.6'
-  gem "jekyll-assets"
-  gem "jekyll-paginate"
-  gem "jekyll-sitemap"
-  gem "jemoji"
-  gem "mini_magick"
-  gem "sass"
-  gem "sprockets", "~> 3.7"
-  gem "uglifier"
   #gem "jekyll-admin"
-  #gem "jekyll-seo-tag"
+  gem "rake", '13.0.1'
+  gem "autoprefixer-rails", '9.7.4'
+  gem "html-proofer", '3.15.1'
+  gem "image_optim", '0.26.5'
+  gem "jekyll", '3.8.6'
+  gem "jekyll-assets", '3.0.12'
+  gem "jekyll-paginate", '1.1.0'
+  gem "jekyll-sitemap", '1.4.0'
+  gem "jemoji", '0.11.1'
+  gem "mini_magick", '4.10.1'
+  gem "sass", '3.7.4'
+  gem "sprockets", "~> 3.7"
+  gem "uglifier", '4.2.0'
+  gem "jekyll-seo-tag", "~> 2.1"
 end

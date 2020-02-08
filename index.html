@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "The high quality, completely customizable, performant and 100% free blog template for Jekyll"
-description: "Chalk uses all the best tools and merges them into one premium blogging theme."
+title: "部落格"
+description: "The blogging keeps a record of what happened in my life..."
 ---
 
 <ul class="article-list">
@@ -26,10 +26,10 @@ description: "Chalk uses all the best tools and merges them into one premium blo
   {% if paginator.total_pages > 1 %}
     <li class="article-pagination {% if site.settings.scrollappear_enabled %}scrollappear{% endif %}">
       {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path }}" class="article-pagination-left">{% include svg-icon.html icon="arrow-left" %} Older posts</a>
+        <a href="{{ paginator.next_page_path }}" class="article-pagination-right">{% include svg-icon.html icon="arrow-right" %} Older posts</a>
       {% endif %}
       {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" class="article-pagination-right">Newer posts {% include svg-icon.html icon="arrow-right" %}</a>
+        <a href="{{ paginator.previous_page_path }}" class="article-pagination-left">Newer posts {% include svg-icon.html icon="arrow-left" %}</a>
       {% endif %}
     </li>
   {% endif %}

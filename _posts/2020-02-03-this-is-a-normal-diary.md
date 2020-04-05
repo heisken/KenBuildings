@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "My life..."
-description: "..."
-thumb_image: "documentation/sample-image.jpg"
+title: "Welcome to my home..."
+description: "Learn more..."
 tags: [web, jekyll]
 ---
 
-## Welcome to my home
-
-Today is nothing more than usual...
+### Welcome to my home
+haha

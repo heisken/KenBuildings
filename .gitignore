@@ -7,6 +7,7 @@ Thumbs.db
 !.keep
 *.sass-cache
 /_assets/yarn/
+/_drafts/
 /_site/
 /.jekyll-cache/
 Gemfile.lock

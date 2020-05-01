@@ -18,6 +18,8 @@ group :jekyll_plugins do
   gem "html-proofer", '3.15.1'
   gem "image_optim", '0.26.5'
   gem "jekyll", '3.8.6'
+  #gem "jekyll", '4.0.0'
+  gem "jekyll_image_encode"
   gem "jekyll-assets", '3.0.12'
   gem "jekyll-paginate", '1.1.0'
   gem "jekyll-sitemap", '1.4.0'

@@ -10,7 +10,6 @@ Thumbs.db
 /_drafts/
 /_site/
 /.jekyll-cache/
-Gemfile.lock
 package-lock.json
 yarn.lock
 .idea

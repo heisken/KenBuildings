@@ -8,7 +8,9 @@ env:
 
 # version automatically picked up from .ruby-version
 language: ruby
-cache: bundler
+cache: 
+  bundler: true
+  yarn: true
 
 rvm:
   - 2.5.3
@@ -28,9 +30,9 @@ install:
 before_script:
   - chmod +x ./bin/setup
   - ./bin/setup
-  - sudo bundle exec jekyll build
+  - bundle exec jekyll build
 
-script: sudo bundle exec htmlproofer ./_site --only-4xx --allow-hash-href --assume-extension --check-opengraph --url-ignore "feed.xml,/facebook.com/"
+#script: bundle exec htmlproofer ./_site --only-4xx --allow-hash-href --assume-extension --check-opengraph --url-ignore "feed.xml,/facebook.com/"
 
 deploy:
   provider: pages

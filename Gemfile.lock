@@ -8,7 +8,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    autoprefixer-rails (9.7.4)
+    autoprefixer-rails (9.7.6)
       execjs
     colorator (1.1.0)
     concurrent-ruby (1.1.6)
@@ -30,7 +30,7 @@ GEM
     html-pipeline (2.12.3)
       activesupport (>= 2)
       nokogiri (>= 1.4)
-    html-proofer (3.15.1)
+    html-proofer (3.15.3)
       addressable (~> 2.3)
       mercenary (~> 0.3)
       nokogumbo (~> 2.0)
@@ -87,7 +87,7 @@ GEM
       listen (~> 3.0)
     jekyll_image_encode (0.0.4)
       mimemagic (>= 0.2.0)
-    jemoji (0.11.1)
+    jemoji (0.12.0)
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
@@ -142,16 +142,16 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  autoprefixer-rails (= 9.7.4)
-  html-proofer (= 3.15.1)
+  autoprefixer-rails (= 9.7.6)
+  html-proofer (= 3.15.3)
   image_optim (= 0.26.5)
   jekyll (= 3.8.6)
   jekyll-assets (= 3.0.12)
   jekyll-paginate (= 1.1.0)
-  jekyll-seo-tag (~> 2.1)
+  jekyll-seo-tag (~> 2.6)
   jekyll-sitemap (= 1.4.0)
   jekyll_image_encode
-  jemoji (= 0.11.1)
+  jemoji (= 0.12.0)
   mini_magick (= 4.10.1)
   rake (= 13.0.1)
   sass (= 3.7.4)

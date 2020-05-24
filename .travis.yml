@@ -31,7 +31,7 @@ before_script:
   - chmod +x ./bin/setup
   - ./bin/setup
 
-script: bundle exec htmlproofer ./_site --only-4xx --allow-hash-href --assume-extension --check-opengraph --url-ignore "feed.xml,/facebook.com/" --disable-external
+#script: bundle exec htmlproofer ./_site --only-4xx --allow-hash-href --assume-extension --check-opengraph --url-ignore "feed.xml,/facebook.com/" --disable-external
 
 deploy:
   provider: pages

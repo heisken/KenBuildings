@@ -15,4 +15,4 @@ bundle exec jekyll build
 
 # Set up JS dependencies via Yarn.
 #npm install -g yarn
-#arn install --modules-folder ./_assets/yarn
+#yarn install --modules-folder ./_assets/yarn

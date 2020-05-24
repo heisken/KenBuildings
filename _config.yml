@@ -4,7 +4,7 @@ blog_theme: light # Or use dark
 name: Kenneth's BLOG
 paginate: 8
 url: http://blog.whatis.vip
-
+baseurl: ""
 
 # Optional settings
 
@@ -85,3 +85,4 @@ plugins:
   - jemoji
 paginate_path: /posts/page/:num/
 permalink: posts/:slug
+#permalink: /:year/:month/:title.html

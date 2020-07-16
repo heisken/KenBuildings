@@ -1,0 +1,4 @@
+---
+slug: thinking
+name: Thinking
+---

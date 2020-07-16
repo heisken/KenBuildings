@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "哈哈哈，什么都没有"
-description: "感谢小阿飞光临"
+title: "心情很差"
+description: "不希望有人可以找到我"
 tags: [design]
 ---
 

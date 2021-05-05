@@ -28,6 +28,7 @@ group :jekyll_plugins do
   gem "sass", '3.7.4'
   gem "sprockets", "~> 3.7"
   gem "uglifier", '4.2.0'
+  gem "kramdown", ">= 2.3.1"
   #gem 'minitest', '~> 5.14.4'
   gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dabd025dcbd36a8a60f'
 end

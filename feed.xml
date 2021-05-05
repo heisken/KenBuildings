@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Kenneth's BLOG</title>
+    <description></description>
+    <link>http://blog.whatis.vip</link>
+    <atom:link href="http://blog.whatis.vip/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Swift编程语言学习</title>
+        <description>Swift5.3语言特性学习和知识总结</description>
+        <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+        <link>http://blog.whatis.vip/posts/swift-learing</link>
+        <guid isPermaLink="true">http://blog.whatis.vip/posts/swift-learing</guid>
+      </item>
+    
+      <item>
+        <title>摄影学习笔记</title>
+        <description>记录一些摄影学习的笔记，不断成长中</description>
+        <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
+        <link>http://blog.whatis.vip/posts/photograph-learning</link>
+        <guid isPermaLink="true">http://blog.whatis.vip/posts/photograph-learning</guid>
+      </item>
+    
+      <item>
+        <title>心情很差</title>
+        <description>不希望有人可以找到我</description>
+        <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
+        <link>http://blog.whatis.vip/posts/welcome-to-my-home</link>
+        <guid isPermaLink="true">http://blog.whatis.vip/posts/welcome-to-my-home</guid>
+      </item>
+    
+      <item>
+        <title>生日快乐</title>
+        <description>今天的日子很特别</description>
+        <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
+        <link>http://blog.whatis.vip/posts/boring-birthday</link>
+        <guid isPermaLink="true">http://blog.whatis.vip/posts/boring-birthday</guid>
+      </item>
+    
+  </channel>
+</rss>

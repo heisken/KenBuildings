@@ -1,4 +1,5 @@
-sudo: false
+# root: deprecated key sudo (The key `sudo` has no effect anymore.) 
+# sudo: false
 
 env:
   global:
@@ -36,7 +37,8 @@ script: bundle exec htmlproofer ./_site --only-4xx --allow-hash-href --assume-ex
 
 deploy:
   provider: pages
-  skip_cleanup: true
+  # deploy: deprecated key skip_cleanup (not supported in dpl v2, use cleanup) 
+  # skip_cleanup: true
   github_token: $GITHUB_TOKEN
   local_dir: _site
   target_branch: master

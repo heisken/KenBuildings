@@ -22,10 +22,12 @@ group :jekyll_plugins do
   gem "jekyll-assets", '3.0.12'
   gem "jekyll-paginate", '1.1.0'
   gem "jekyll-sitemap", '1.4.0'
+  gem "jekyll-seo-tag", "~> 2.6"
   gem "jemoji", '0.12.0'
   gem "mini_magick", '4.10.1'
   gem "sass", '3.7.4'
   gem "sprockets", "~> 3.7"
   gem "uglifier", '4.2.0'
-  gem "jekyll-seo-tag", "~> 2.6"
+  #gem 'minitest', '~> 5.14.4'
+  gem 'mimemagic', github: 'mimemagicrb/mimemagic', ref: '01f92d86d15d85cfd0f20dabd025dcbd36a8a60f'
 end

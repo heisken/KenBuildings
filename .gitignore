@@ -7,7 +7,7 @@ Thumbs.db
 !.keep
 *.sass-cache
 /_assets/yarn/
-/_drafts/
+/_assets/_drafts/
 /_site/
 /.jekyll-cache/
 package-lock.json

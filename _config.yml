@@ -3,6 +3,7 @@
 blog_theme: light # Or use dark
 name: Kenneth's BLOG
 paginate: 8
+description: >- # this means to ignore newlines until "url:"
 url: http://blog.whatis.vip
 baseurl: ""
 
@@ -41,7 +42,7 @@ social:
   steam: # Add your Steam handle
 
 
-# Important settings (change at own risk)
+# Important settings (change at your own risk)
 
 assets:
   plugins:

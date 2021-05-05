@@ -22,6 +22,7 @@ before_install:
   - nvm install stable
   - nvm use stable
   - npm install -g yarn
+  - rm Gemfile.lock
 install:
   - bundle check || bundle install
   - bundle update
